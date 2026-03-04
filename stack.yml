@@ -1,0 +1,8 @@
+name: vinyl
+title: Vinyl
+icon: vinyl
+
+services:
+- name: vinyl
+  title: Vinyl
+  service: vinyl
