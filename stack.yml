@@ -6,3 +6,10 @@ services:
 - name: vinyl
   title: Vinyl
   service: vinyl
+  links:
+  - name: backend
+    service: nginx
+
+- name: nginx
+  title: Nginx
+  service: nginx
